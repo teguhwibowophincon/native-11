@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		706B92B9F52708DC88F37ABD /* libPods-native-11.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F21CD134177F256B35B1FD26 /* libPods-native-11.a */; };
+		B586560D2A7CAAB10044BB60 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B586560B2A7CAAB10044BB60 /* MainViewController.swift */; };
+		B586560E2A7CAAB10044BB60 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B586560C2A7CAAB10044BB60 /* MainViewController.xib */; };
+		B58E1CBC2A7CA6B40040EC9D /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = B58E1CBB2A7CA6B40040EC9D /* main.jsbundle */; };
 		B5A55FAA2A7C929F00ED654B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A55FA92A7C929F00ED654B /* AppDelegate.swift */; };
-		B5A55FAC2A7C929F00ED654B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A55FAB2A7C929F00ED654B /* SceneDelegate.swift */; };
 		B5A55FAE2A7C929F00ED654B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A55FAD2A7C929F00ED654B /* ViewController.swift */; };
 		B5A55FB12A7C929F00ED654B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A55FAF2A7C929F00ED654B /* Main.storyboard */; };
 		B5A55FB32A7C92A000ED654B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A55FB22A7C92A000ED654B /* Assets.xcassets */; };
@@ -16,14 +19,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2CA498C5A1900D485A619EC /* Pods-native-11.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-native-11.debug.xcconfig"; path = "Target Support Files/Pods-native-11/Pods-native-11.debug.xcconfig"; sourceTree = "<group>"; };
+		B586560B2A7CAAB10044BB60 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B586560C2A7CAAB10044BB60 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B58E1CBB2A7CA6B40040EC9D /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		B5A55FA62A7C929F00ED654B /* native-11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "native-11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A55FA92A7C929F00ED654B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B5A55FAB2A7C929F00ED654B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B5A55FAD2A7C929F00ED654B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5A55FB02A7C929F00ED654B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5A55FB22A7C92A000ED654B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5A55FB52A7C92A000ED654B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5A55FB72A7C92A000ED654B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D14466BCD73532EB2BCB4659 /* Pods-native-11.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-native-11.release.xcconfig"; path = "Target Support Files/Pods-native-11/Pods-native-11.release.xcconfig"; sourceTree = "<group>"; };
+		F21CD134177F256B35B1FD26 /* libPods-native-11.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-native-11.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706B92B9F52708DC88F37ABD /* libPods-native-11.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9081432EDCFBAC4F2EEC5F94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2CA498C5A1900D485A619EC /* Pods-native-11.debug.xcconfig */,
+				D14466BCD73532EB2BCB4659 /* Pods-native-11.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B5A55F9D2A7C929F00ED654B = {
 			isa = PBXGroup;
 			children = (
+				B58E1CBB2A7CA6B40040EC9D /* main.jsbundle */,
 				B5A55FA82A7C929F00ED654B /* native-11 */,
 				B5A55FA72A7C929F00ED654B /* Products */,
+				9081432EDCFBAC4F2EEC5F94 /* Pods */,
+				F4F49786821F471B91106A7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,23 @@
 			isa = PBXGroup;
 			children = (
 				B5A55FA92A7C929F00ED654B /* AppDelegate.swift */,
-				B5A55FAB2A7C929F00ED654B /* SceneDelegate.swift */,
 				B5A55FAD2A7C929F00ED654B /* ViewController.swift */,
 				B5A55FAF2A7C929F00ED654B /* Main.storyboard */,
 				B5A55FB22A7C92A000ED654B /* Assets.xcassets */,
 				B5A55FB42A7C92A000ED654B /* LaunchScreen.storyboard */,
 				B5A55FB72A7C92A000ED654B /* Info.plist */,
+				B586560B2A7CAAB10044BB60 /* MainViewController.swift */,
+				B586560C2A7CAAB10044BB60 /* MainViewController.xib */,
 			);
 			path = "native-11";
+			sourceTree = "<group>";
+		};
+		F4F49786821F471B91106A7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21CD134177F256B35B1FD26 /* libPods-native-11.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5A55FBA2A7C92A000ED654B /* Build configuration list for PBXNativeTarget "native-11" */;
 			buildPhases = (
+				109286982BEE558520AD0D20 /* [CP] Check Pods Manifest.lock */,
 				B5A55FA22A7C929F00ED654B /* Sources */,
 				B5A55FA32A7C929F00ED654B /* Frameworks */,
 				B5A55FA42A7C929F00ED654B /* Resources */,
+				66C168E100082481EC34AE43 /* [CP] Embed Pods Frameworks */,
+				A69B70B4FDAE7E6E6807D6B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,20 +160,81 @@
 			files = (
 				B5A55FB62A7C92A000ED654B /* LaunchScreen.storyboard in Resources */,
 				B5A55FB32A7C92A000ED654B /* Assets.xcassets in Resources */,
+				B586560E2A7CAAB10044BB60 /* MainViewController.xib in Resources */,
 				B5A55FB12A7C929F00ED654B /* Main.storyboard in Resources */,
+				B58E1CBC2A7CA6B40040EC9D /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109286982BEE558520AD0D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-native-11-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C168E100082481EC34AE43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-native-11/Pods-native-11-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-native-11/Pods-native-11-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-native-11/Pods-native-11-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A69B70B4FDAE7E6E6807D6B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-native-11/Pods-native-11-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-native-11/Pods-native-11-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-native-11/Pods-native-11-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5A55FA22A7C929F00ED654B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B586560D2A7CAAB10044BB60 /* MainViewController.swift in Sources */,
 				B5A55FAE2A7C929F00ED654B /* ViewController.swift in Sources */,
 				B5A55FAA2A7C929F00ED654B /* AppDelegate.swift in Sources */,
-				B5A55FAC2A7C929F00ED654B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +296,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -216,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,6 +357,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -270,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +378,7 @@
 		};
 		B5A55FBB2A7C92A000ED654B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CA498C5A1900D485A619EC /* Pods-native-11.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,10 +387,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "native-11/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +407,7 @@
 		};
 		B5A55FBC2A7C92A000ED654B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14466BCD73532EB2BCB4659 /* Pods-native-11.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,10 +416,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "native-11/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
